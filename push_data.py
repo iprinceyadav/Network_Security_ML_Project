@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
     networkobj = NetworkDataExtract()
     records = networkobj.csv_to_json_convertor(file_path=FILE_PATH)
-    
+    print(records)
     no_of_records = networkobj.insert_data_to_mongoDB(records, DATABASE, COLLECTION)
 
     print(f"✅ Successfully inserted {no_of_records:,} records into MongoDB collection '{COLLECTION}' in database '{DATABASE}'.")
