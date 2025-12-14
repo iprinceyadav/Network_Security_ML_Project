@@ -3,6 +3,7 @@
         "dataingestionartifact",
         "dataingestionconfig",
         "networksecurity",
+        "phising",
         "trainingpipelineconfig"
     ]
 }
