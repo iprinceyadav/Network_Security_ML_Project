@@ -1,0 +1,26 @@
+2026-06-02 13:45:03,841 - INFO - Initiating data ingestion
+2026-06-02 13:45:14,851 - INFO - Exporting train test split
+2026-06-02 13:45:15,329 - INFO - Exported train test split successfully
+2026-06-02 13:45:15,334 - INFO - Data ingestion completed
+2026-06-02 13:45:15,396 - INFO - Initiating data validation
+2026-06-02 13:45:15,591 - INFO - Required number of columns: 31
+2026-06-02 13:45:15,591 - INFO - Dataframe has columns: 31
+2026-06-02 13:45:15,591 - INFO - Required number of columns: 31
+2026-06-02 13:45:15,592 - INFO - Dataframe has columns: 31
+2026-06-02 13:45:16,530 - INFO - Data validation completed
+2026-06-02 13:45:16,531 - INFO - Data Transformation started
+2026-06-02 13:45:16,531 - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Transformation <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2026-06-02 13:45:16,532 - INFO - Starting data transformation
+2026-06-02 13:45:16,720 - INFO - Entered the get_data_transformer_object method of Data_Transformation class
+2026-06-02 13:45:16,720 - INFO - Initialise KNNImputer with {DATA_TRANSFORMATION_IMPUTER_PARAMS}
+2026-06-02 13:45:16,771 - INFO - Saving object to artifact\06_02_2026_13_44_41\data_transformation\transformed_object\preprocessing.pkl
+2026-06-02 13:45:16,781 - INFO - Object saved to artifact\06_02_2026_13_44_41\data_transformation\transformed_object\preprocessing.pkl successfully
+2026-06-02 13:45:16,781 - INFO - Saving object to final_model/preprocessor.pkl
+2026-06-02 13:45:16,792 - INFO - Object saved to final_model/preprocessor.pkl successfully
+2026-06-02 13:45:16,797 - INFO - Data Transformation completed
+2026-06-02 13:45:16,798 - INFO - Model Training stared
+2026-06-02 13:55:51,204 - INFO - Saving object to artifact\06_02_2026_13_44_41\model_trainer\trained_model\model.pkl
+2026-06-02 13:55:51,205 - INFO - Object saved to artifact\06_02_2026_13_44_41\model_trainer\trained_model\model.pkl successfully
+2026-06-02 13:55:51,205 - INFO - Saving object to final_model/model.pkl
+2026-06-02 13:55:51,230 - INFO - Object saved to final_model/model.pkl successfully
+2026-06-02 13:55:51,230 - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifact\\06_02_2026_13_44_41\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9903009180063871, precision_score=0.9903140447829933, recall_score=0.9903041610131162), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.5526658341800861, precision_score=0.5500646631199554, recall_score=0.555291723202171))
