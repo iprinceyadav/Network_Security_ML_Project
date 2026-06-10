@@ -8,3 +8,6 @@ dill
 pyaml
 scipy
 mlflow
+dagshub
+fastapi
+uvicorn
