@@ -1,0 +1,23 @@
+artifact_path: file:E:/Newtork Security Project/mlruns/0/models/m-13b901715a7a4206b128d23de5371074/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-13b901715a7a4206b128d23de5371074
+model_size_bytes: 37606114
+model_uuid: m-13b901715a7a4206b128d23de5371074
+prompts: null
+run_id: ae5a3c462499497ea803bfdb63be0958
+utc_time_created: '2026-06-10 04:05:49.910991'

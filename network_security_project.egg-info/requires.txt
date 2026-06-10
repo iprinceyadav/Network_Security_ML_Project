@@ -7,3 +7,4 @@ scikit-learn
 dill
 pyaml
 scipy
+mlflow
